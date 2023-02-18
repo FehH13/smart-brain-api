@@ -34,6 +34,6 @@ app.put('/image', (req, res) => { image.handleImage(req, res, db)})
 app.post('/imagekey', (req, res) => { image.handleKey(req, res)})
     
 
-app.listen(3001, () => {
-    console.log('app is running');
+app.listen(process.env.PORT || 3001, () => {
+    console.log(`app is running on ${process.env.PORT}`);
 })
