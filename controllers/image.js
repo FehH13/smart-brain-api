@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from "node-fetch";
 
 const handleKey = (req, res) => {
     const USER_ID = "clarifai";
