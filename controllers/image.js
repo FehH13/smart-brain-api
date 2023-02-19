@@ -1,4 +1,4 @@
-import fetch from "node-fetch-commonjs";
+const fetch = require('node-fetch-commonjs');
 
 const handleKey = (req, res) => {
     const USER_ID = "clarifai";
