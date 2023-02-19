@@ -1,4 +1,4 @@
-const { response } = require("express");
+const fetch = require('node-fetch');
 
 const handleKey = (req, res) => {
     const USER_ID = "clarifai";
